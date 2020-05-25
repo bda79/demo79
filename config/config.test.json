@@ -1,0 +1,5 @@
+{
+    "jwtPrivateKey": "12345",
+    "db": "VIDLY_DB_TEST",
+    "port": "PORT"
+}

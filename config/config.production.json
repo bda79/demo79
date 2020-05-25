@@ -1,0 +1,5 @@
+{
+    "jwtPrivateKey": "VIDLY_JWT_PRIVATE_KEY",
+    "db": "VIDLY_DB",
+    "port": "PORT"
+}
