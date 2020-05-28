@@ -1416,3 +1416,65 @@ TypeError: getDbName is not a function
 2020-05-05 17:19:30 INFO [index.js]: Listening on port 5000...
 2020-05-05 17:19:30 INFO [index.js]: Connected to mongodb://localhost:27017/vidly...
 2020-05-05 12:20:51 INFO [index.js]: Listening on port 5000...
+2020-05-05 12:41:53 INFO [index.js]: Listening on port 5000...
+2020-05-05 12:42:23 ERROR [index.js]: uncaughtException: getaddrinfo ENOTFOUND vidly-neabv.mongodb.net
+MongooseServerSelectionError: getaddrinfo ENOTFOUND vidly-neabv.mongodb.net
+    at new MongooseServerSelectionError (C:\ReactPrjs\CursoNode\vidly\node_modules\mongoose\lib\error\serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (C:\ReactPrjs\CursoNode\vidly\node_modules\mongoose\lib\connection.js:823:32)
+    at Mongoose.connect (C:\ReactPrjs\CursoNode\vidly\node_modules\mongoose\lib\index.js:333:15)
+    at module.exports (C:\ReactPrjs\CursoNode\vidly\startup\db.js:9:14)
+    at Object.<anonymous> (C:\ReactPrjs\CursoNode\vidly\index.js:6:24)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+2020-05-05 12:46:22 INFO [index.js]: Listening on port 5000...
+2020-05-05 12:46:23 INFO [index.js]: Connected to mongo "mongodb://root:root@vidly-shard-00-00-neabv.mongodb.net:27017,vidly-shard-00-01-neabv.mongodb.net:27017,vidly-shard-00-02-neabv.mongodb.net:27017/test?ssl=true&replicaSet=vidly-shard-0&authSource=admin&retryWrites=true&w=majority"...
+2020-05-05 12:47:46 INFO [index.js]: Listening on port 5000...
+2020-05-05 12:48:16 ERROR [index.js]: uncaughtException: connection <monitor> to 34.240.134.80:27017 closed
+MongooseServerSelectionError: connection <monitor> to 34.240.134.80:27017 closed
+    at new MongooseServerSelectionError (C:\ReactPrjs\CursoNode\vidly\node_modules\mongoose\lib\error\serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (C:\ReactPrjs\CursoNode\vidly\node_modules\mongoose\lib\connection.js:823:32)
+    at Mongoose.connect (C:\ReactPrjs\CursoNode\vidly\node_modules\mongoose\lib\index.js:333:15)
+    at module.exports (C:\ReactPrjs\CursoNode\vidly\startup\db.js:9:14)
+    at Object.<anonymous> (C:\ReactPrjs\CursoNode\vidly\index.js:6:24)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+2020-05-05 12:49:46 INFO [index.js]: Listening on port 5000...
+2020-05-05 12:50:15 ERROR [index.js]: uncaughtException: Authentication failed.
+MongooseServerSelectionError: Authentication failed.
+    at new MongooseServerSelectionError (C:\ReactPrjs\CursoNode\vidly\node_modules\mongoose\lib\error\serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (C:\ReactPrjs\CursoNode\vidly\node_modules\mongoose\lib\connection.js:823:32)
+    at Mongoose.connect (C:\ReactPrjs\CursoNode\vidly\node_modules\mongoose\lib\index.js:333:15)
+    at module.exports (C:\ReactPrjs\CursoNode\vidly\startup\db.js:9:14)
+    at Object.<anonymous> (C:\ReactPrjs\CursoNode\vidly\index.js:6:24)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+2020-05-05 12:51:54 INFO [index.js]: Listening on port 5000...
+2020-05-05 12:52:24 ERROR [index.js]: uncaughtException: connection <monitor> to 34.240.134.80:27017 closed
+MongooseServerSelectionError: connection <monitor> to 34.240.134.80:27017 closed
+    at new MongooseServerSelectionError (C:\ReactPrjs\CursoNode\vidly\node_modules\mongoose\lib\error\serverSelection.js:22:11)
+    at NativeConnection.Connection.openUri (C:\ReactPrjs\CursoNode\vidly\node_modules\mongoose\lib\connection.js:823:32)
+    at Mongoose.connect (C:\ReactPrjs\CursoNode\vidly\node_modules\mongoose\lib\index.js:333:15)
+    at module.exports (C:\ReactPrjs\CursoNode\vidly\startup\db.js:9:14)
+    at Object.<anonymous> (C:\ReactPrjs\CursoNode\vidly\index.js:6:24)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+2020-05-05 12:53:46 INFO [index.js]: Listening on port 5000...
+2020-05-05 12:53:47 INFO [index.js]: Connected to mongodb+srv://root:root@vidly-neabv.mongodb.net/test?retryWrites=true&w=majority...
+2020-05-05 13:01:54 INFO [index.js]: Listening on port 5000...
+2020-05-05 13:01:55 INFO [index.js]: Connected to mongodb+srv://root:root@vidly-neabv.mongodb.net/test?retryWrites=true&w=majority...
