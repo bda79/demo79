@@ -1,7 +1,9 @@
 --Commit--
 git add .
 git commit -m "<msg>"
-git push heroku master
+//git push heroku master
+git remote add origin https://github.com/bda79/demo79.git
+git push -u origin master
 
 --BD String--
 cloud.mongodb.com
