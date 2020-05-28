@@ -3,7 +3,7 @@ const logger = require('./middleware/logger');
 const express = require('express');
 const app = express();
 
-console.log("env", process.env);
+console.log("ENV", process.env);
 
 require('./startup/db')();
 require('./startup/logging')();
