@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const config = require('./env');
 
-const env = process.env.NODE_ENV || 'development';
+const env = config().env || 'development';
 const logDir = 'log';
 
 // Create the log directory if not exits create

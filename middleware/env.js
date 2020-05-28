@@ -26,6 +26,7 @@ module.exports = function() {
     config_data.db = getEnvValue(config_data.db);
     config_data.jwtPrivateKey = getEnvValue(config_data.jwtPrivateKey);
     config_data.port = getEnvValue(config_data.port);
+    config_data.env = NODE_ENV;
 
     return config_data;
 }
